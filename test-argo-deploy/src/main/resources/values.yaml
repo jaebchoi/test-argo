@@ -1,0 +1,17 @@
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+  targetRevision: main
+  repo: https://www.github.com/jaebchoi/test-argo
+  helm:
+    valueFiles:
+      - values.yaml
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
+      - ApplyOutOfSyncOnly=true
+    automated: {}
+
+global:
+  imagePullPolicy: Always
+  dockerRepo: ghcr.io/
