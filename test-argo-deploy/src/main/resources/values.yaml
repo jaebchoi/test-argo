@@ -2,7 +2,7 @@ spec:
   destination:
     server: https://kubernetes.default.svc
   targetRevision: main
-  repo: https://www.github.com/jaebchoi/test-argo
+  repo: https://www.github.com/jaebchoi/test-argo.git
   helm:
     valueFiles:
       - values.yaml
