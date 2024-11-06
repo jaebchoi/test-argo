@@ -31,5 +31,5 @@ appVersion: "1.0.0"
 dependencies:
   - name: aissemble-configuration-store-chart
     version: 1.10.0-SNAPSHOT
-    repository: oci://ghcr.io/boozallen
+    repository: oci://ghcr.io/jaebchoi
 
