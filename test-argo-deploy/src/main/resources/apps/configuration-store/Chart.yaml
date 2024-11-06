@@ -21,7 +21,7 @@ version: 1.0.0-SNAPSHOT
 # incremented each time you make changes to the application. Versions are not expected to
 # follow Semantic Versioning. They should reflect the version the application is using.
 # It is recommended to use it with quotes.
-appVersion: "1.0.0"
+appVersion: "1.10.0-SNAPSHOT"
 
 # To include an aiSSEMBLE chart with ArgoCD we must add it as a dependency until including from multiple sources
 # is moved out of beta and into the latest version of Argo.
